@@ -62,7 +62,7 @@ class Authentication extends React.Component{
     render() {
         return (
             <div className="m-2">
-                <header className="h2">OAUTH PERSON</header>
+                <header className="h2">OAUTH FORM</header>
                 <p className="h3">Get token:</p>
                 <form className="form-horizontal" onSubmit={this.getToken}>
                     <div className="column col-3 bg-primary">
