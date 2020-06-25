@@ -1,0 +1,36 @@
+{
+  "name": "react-form-oauth-sample",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "dependencies": {
+    "basic-authorization-header": "^0.2.7",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "^2.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "stop": "taskkill -F -IM node.exe"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "author": "Rodrigo Formagio",
+  "license": "ISC",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
